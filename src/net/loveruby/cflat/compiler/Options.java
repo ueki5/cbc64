@@ -19,7 +19,7 @@ class Options {
     }
 
     private CompilerMode mode;
-    private Platform platform = new X86Linux();
+    private Platform platform = new X86_64Linux();
     private String outputFileName;
     private boolean verbose = false;
     private LibraryLoader loader = new LibraryLoader();
