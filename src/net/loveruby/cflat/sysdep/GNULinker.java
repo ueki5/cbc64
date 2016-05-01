@@ -12,7 +12,7 @@ class GNULinker implements Linker {
     static final private String DYNAMIC_LINKER      = "/lib/ld-linux.so.2";
     static final private String C_RUNTIME_INIT      = "/usr/lib/crti.o";
     static final private String C_RUNTIME_START     = "/usr/lib/crt1.o";
-    static final private String C_RUNTIME_START_PIE = "/usr/lib/crt1.o";
+    static final private String C_RUNTIME_START_PIE = "/usr/lib/Scrt1.o";
     static final private String C_RUNTIME_FINI      = "/usr/lib/crtn.o";
     // #@@}
 
