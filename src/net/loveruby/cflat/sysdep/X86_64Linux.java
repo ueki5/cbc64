@@ -6,6 +6,8 @@ import net.loveruby.cflat.asm.Type;
 public class X86_64Linux implements Platform {
     public TypeTable typeTable() {
         return TypeTable.ilp64();
+        //return TypeTable.lp64();
+        //return TypeTable.llp64();
     }
 
     public CodeGenerator codeGenerator(
