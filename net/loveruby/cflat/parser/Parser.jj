@@ -3,7 +3,7 @@ options {
     STATIC = false;
     DEBUG_PARSER = true;
     UNICODE_INPUT = true;
-    JDK_VERSION = "1.5";
+    JDK_VERSION = "1.11";
 }
 // #@@}
 
@@ -15,7 +15,7 @@ import net.loveruby.cflat.type.*;
 import net.loveruby.cflat.asm.Label;
 import net.loveruby.cflat.utils.ErrorHandler;
 import net.loveruby.cflat.exception.*;
-import java.lang.reflect.*;
+//import java.lang.reflect.*;
 import java.util.*;
 import java.io.*;
 
