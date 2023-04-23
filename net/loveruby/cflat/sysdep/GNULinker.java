@@ -8,12 +8,12 @@ import java.util.ArrayList;
 class GNULinker implements Linker {
     // 32bit Linux dependent
     // #@@range/vars{
-    static final private String LINKER = "/usr/bin/ld";
-    static final private String DYNAMIC_LINKER      = "/lib/ld-linux.so.2";
-    static final private String C_RUNTIME_INIT      = "/usr/lib/crti.o";
-    static final private String C_RUNTIME_START     = "/usr/lib/crt1.o";
-    static final private String C_RUNTIME_START_PIE = "/usr/lib/Scrt1.o";
-    static final private String C_RUNTIME_FINI      = "/usr/lib/crtn.o";
+    static final private String LINKER = "ld";
+    static final private String DYNAMIC_LINKER      = "/lib64/ld-linux-x86-64.so.2";
+    static final private String C_RUNTIME_INIT      = "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o";
+    static final private String C_RUNTIME_START     = "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crt1.o";
+    static final private String C_RUNTIME_START_PIE = "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o";
+    static final private String C_RUNTIME_FINI      = "/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o";
     // #@@}
 
     ErrorHandler errorHandler;
