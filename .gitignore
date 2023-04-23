@@ -3,3 +3,9 @@
 /.project
 /.gitignore
 /build/
+!/test/Makefile
+!/test/TARGETS
+!/test/*.cb
+!/test/*.hb
+!/test/*.sh
+/test/
